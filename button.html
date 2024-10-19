@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <title>It's just getting started</title>
+    <script>
+        let x = 0;
+    
+        var audio = new Audio("https://static.wikia.nocookie.net/blue-archive/images/d/d9/Koyuki_CommonSkill.ogg/revision/latest?cb=20230624071740");
+
+        function cunny(){
+            x += 1;
+            document.getElementById("reisa").innerHTML = x;
+        }
+        function plaps(){
+
+            if (!audio.paused) {
+                audio.pause();  // Pause the current audio
+                audio.currentTime = 0;  // Reset the audio to the beginning
+            }
+        
+            audio.play();  // Play the audio
+        }
+        
+        
+    </script>
+
+</head>
+
+<body>
+
+    <h1 title="Im autistic">I Love Reisa</h1>
+    <br>
+    <img src="https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e636dcc-af40-475f-b1f8-d8efd1f3dd36/width=450/reisa_(blue_archive)_image894_2023-11-28-3635355401.jpeg"
+         alt="Reisa my beloved"
+         height="300"
+         width="300">
+    <p id="Reisa">Reisa child = <span id="reisa">0</span></p>
+    <button type="button" onclick="cunny(); plaps();">plap</button>
+
+    <p>Visit <a href="https://chatgpt.com/" >ChatGPT</a></p>
+
+</body>
+
+
+
+
+</html>
